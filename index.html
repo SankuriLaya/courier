@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Courier Service</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Online Courier Service</h1>
+        <form id="registrationForm" action="register" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="address">Address:</label><br>
+            <input type="text" id="address" name="address" required><br>
+            <label for="packageDetails">Package Details:</label><br>
+            <textarea id="packageDetails" name="packageDetails" required></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+        <div id="response"></div>
+    </div>
+    <script src="./design.js"></script>
+</body>
+</html>
